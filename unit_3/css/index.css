@@ -1,0 +1,33 @@
+body {
+	color: #60D2AF;
+	text-align: center;
+
+}
+h1 {
+	color: #390060;
+	text-align: center;
+	font-size: 50px;
+}
+a {
+	color: #390060;
+
+}
+p {
+	margin-right: 200px;
+	margin-left: 200px;
+}
+ul {
+	list-style-type: circle;
+	list-style-position: inside;
+}
+li
+img {
+	height: 55px;
+	width: 55px;
+	align-content: center;
+}
+#slogan {
+	font-style: italic;
+	text-decoration: underline;
+
+}
