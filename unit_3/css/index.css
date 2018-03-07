@@ -17,8 +17,7 @@ p {
 	margin-left: 200px;
 }
 ul {
-	list-style-type: circle;
-	list-style-position: inside;
+	list-style-type: none;
 }
 li
 img {
