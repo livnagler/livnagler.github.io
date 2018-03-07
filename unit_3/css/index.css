@@ -1,7 +1,6 @@
 body {
 	color: #60D2AF;
 	text-align: center;
-
 }
 h1 {
 	color: #390060;
@@ -10,23 +9,26 @@ h1 {
 }
 a {
 	color: #390060;
-
 }
 p {
 	margin-right: 200px;
 	margin-left: 200px;
+	font-size: 20px;
 }
 ul {
 	list-style-type: none;
 }
-li
+li {
+	font-size: 20px;
+	color: #390060;
+}
 img {
-	height: 55px;
-	width: 55px;
-	align-content: center;
+	height: 350px;
+	width: 55%;
+	background-color: #390060;
 }
 #slogan {
 	font-style: italic;
 	text-decoration: underline;
-
+	font-size: 25px;
 }
