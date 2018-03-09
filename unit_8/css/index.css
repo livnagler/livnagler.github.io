@@ -3,7 +3,7 @@
 
 body {
 	color: #60D2AF;
-	text-align: center;
+	content: center;
 	width: 100%;
 	font-size: 16px;
 }
@@ -113,6 +113,7 @@ span {
 	padding: 20px;
 	width: 100%;
 	display: inline-block;
+	border: 5px #166742 solid;
 }
 #left img {
 	display: inline-block;
@@ -147,6 +148,10 @@ li {
 	font-size: 30px;
 	color: #390060;
 
+}
+#blank {
+	height: 30px;
+	width: 100%;
 }
 @media only screen and (max-width: 550px) {
 	#slogan {
