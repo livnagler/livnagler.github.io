@@ -82,7 +82,7 @@ aside {
 	background: #390060;
 	color: #3A7F6A;
 	font-size: 1.5em;
-	border: 5px #166742 solid;
+	border: 5px #3A7F6A solid;
 	padding: 20px;
 	width: 100%;
 	margin: 0 auto;
@@ -115,7 +115,7 @@ span {
 	padding: 20px;
 	width: 100%;
 	display: inline-block;
-	border: 5px #166742 solid;
+	border: 5px #3A7F6A solid;
 }
 #left img {
 	display: inline-block;
