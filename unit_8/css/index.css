@@ -109,42 +109,30 @@ span {
 
 
 #two_column {
-	background-color: #FFB7CF;
-	border: 1px black solid;
+	background-color: #390060;
 	padding: 20px;
 	width: 100%;
-	clear: none;
-}
-#left {
 	display: inline-block;
-	background-color: none;
-	padding: 20 20 20 20;
-	float: left;
-	width: 45%;
-
 }
-#right {
+#left img {
 	display: inline-block;
-	background-color: none;
-	float: right;
-	padding: 20 20 20 20;
-	width: 45%;
-}
-#earrings {
 	float: left;
 	padding: 20px;
-	width: 80%;
+	width: 45%;
+	height: 420px;
 
 }
-#liv_on_beach {
-	padding: 20px;
+#right img {
+	display: inline-block;
 	float: right;
-	width: 80%;
+	padding: 20px;
+	width: 45%;
+	height: 420px;
 }
-}
+
 .clearfix::after {
 	visibility: hidden;
-	display: block;
+	display: inline-block;
 	font-size: 0;
 	content: "";
 	clear: both;
@@ -166,6 +154,9 @@ li {
 }
 	body {
 		font-size: 16px;
+	}
+	#left img, #right img {
+		width: 30%;
 	}
 }
 @media only screen and (max-width: 768px) {
