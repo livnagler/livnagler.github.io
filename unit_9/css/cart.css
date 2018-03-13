@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+	color: #60D2AF;
+	align-content: center;
+	width: 80%;
+	font-size: 16px;
+	margin: 0 auto;
+}
+header {
+	background-color: none;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	margin: 0 auto;
+}
+#nav_one {
+	background: #390060;
+	color: #3A7F6A;
+	font-size: 1em;
+	font-family: 'Montserrat', sans-serif;
+	border: 5px #3A7F6A solid;
+	padding: 20px;
+	width: 100%;
+	margin: 0 auto;
+	word-spacing: 5em;
+	text-align: center;
+}
+.highlight: hover {
+	color: black;
+}
+h1 {
+	color: #390060;
+	text-align: center;
+	font-size: 3em;
+	font-family: 'Abril Fatface', cursive;
+	padding: 5px;
+	width: 100%;
+	margin: 0 auto;
+}
+#nav_two {
+	color: #60D2AF;
+	background: #3A7F6A;
+	font-size: 2em;
+	border: 5px #390060 solid;
+	text-align: center;
+	font-family: 'Abril Fatface', cursive;
+	word-spacing: 3em;
+	padding: 20px;
+	width: 100%;
+}
+nav a {
+	color: #60D2AF;
+	text-decoration: none;
+	padding: .4em;
+}
+#slogan {
+	color: #390060;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 25px;
+	line-height: .5em;
+	text-transform: bold;
+	text-align: center;
+}
+#greeting {
+	padding: 20px;
+	text-align: center;
+	font-size: 1.5em;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.5em;
+}
+aside {
+	padding: 20px;
+	text-align: center;
+	width: 100%;
+	clear: both;
+}
+#contact {
+	font-family: 'Montserrat;' sans-serif;
+	width: 100%;
+	background: #390060;
+	color: #3A7F6A;
+	font-size: 1.5em;
+	border: 5px #166742 solid;
+	padding: 20px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+footer {
+	background-color: none;
+	text-align: center;
+	padding: 1em 0;
+	padding: 20px;
+	width: 100%;
+}
+
+a {
+	color: #60D2AF;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+}
+
+span {
+	background-color: #390060;
+	letter-spacing: .25em;
+	padding: 0 .25em;
+	color: 
+}
+
+
+#two_column {
+	background-color: #390060;
+	padding: 20px;
+	width: 100%;
+	display: inline-block;
+	border: 5px #390060 solid;
+}
+#left img {
+	display: inline-block;
+	float: left;
+	padding: 20px;
+	width: 45%;
+	height: 420px;
+
+}
+#right img {
+	display: inline-block;
+	float: right;
+	padding: 20px;
+	width: 45%;
+	height: 420px;
+}
+
+.clearfix::after {
+	visibility: hidden;
+	display: inline-block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 5em;
+}
+ul {
+	text-align: center;
+	list-style-type: none;
+	font-family: 'Abril Fatface', cursive;
+}
+li {
+	font-size: 30px;
+	color: #390060;
+
+}
+#blank {
+	height: 30px;
+	width: 100%;
+}
+@media only screen and (max-width: 500px) {
+	#slogan {
+	font-size: 15px;
+}
+	body {
+		font-size: 16px;
+		margin: auto;
+		width: 100%
+	}
+	#left img, #right img {
+		width: 30%;
+	}
+
+}
+@media only screen and (max-width: 768px) {
+	nav a {
+		display: block;
+		text-align: center;
+		margin: 0;
+	}
+	#nav_one {
+		display: block;
+		text-align: center;
+		margin: 0;
+		padding: .5em;
+	}
+}
+
+
+.row:after {
+	content: "";
+	border: 5px purple solid;
+	clear: both;
+}
